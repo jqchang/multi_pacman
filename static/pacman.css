@@ -1,0 +1,64 @@
+.pacman1, .pacman2, .pacman3, .pacman4, .dot, .cherry, .ghost{
+  width: 20px;
+  height: 20px;
+}
+
+.background {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
+
+.brick {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
+
+.error {
+  background-color: red;
+}
+
+#score {
+  color: white;
+}
+#score p {
+  color: red;
+}
+
+#reset {
+  display: block;
+  padding-top: 20px;
+  color: white;
+}
+#wrapper {
+  display: block;
+  width: 640px;
+  height: 150px;
+}
+ #log {
+   display: inline-block;
+   border: 1px black solid;
+   overflow-y: scroll;
+   width: 80%;
+   height: 140px;
+ }
+ #userlist {
+   display: inline-block;
+   border: 1px black solid;
+   overflow-y: scroll;
+   width: 18%;
+   height: 140px;
+ }
+ #input {
+   width: 640px;
+   height: 40px;
+ }
+ #msg {
+   margin-top: 5px;
+   width: 98%;
+ }
+ p {
+   margin: 0px;
+   padding: 0px;
+ }
